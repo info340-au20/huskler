@@ -1,0 +1,127 @@
+*{
+  font-family: Arial, sans-serif;  
+}
+
+.header-landing-page{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: white;
+  
+}
+
+@media (min-width: 769px){
+  .header-landing-page{
+    font-size: 7rem;
+  }
+}
+
+.header-flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+/* Navbar */
+.navbar-flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1rem;
+  background-color: #4b2e83;
+  
+}
+
+.navbar-list{
+  display: inline;
+  margin: 0px 2rem;
+}
+
+
+.navbar-child-a{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-child-b{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: .8rem; 
+}
+
+.list-unstyled{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-child-c{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-navlink{
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.icons{
+  font-size: 1.8rem;
+}
+
+
+/* centered image in a div */
+.image-div{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.event-images{
+  max-height: 200px;
+  
+}
+
+.event-images-lg{
+  max-width: 40%;
+  height: auto;
+}
+  
+.people_image{
+  max-height: 150px;
+  max-width: 150px;
+  padding-top: .5rem;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.flex-nav-submission{
+  display: flex;
+  justify-content: right;
+  margin: 3rem 1.2rem 0rem 1.2rem;
+}
+
+.flex-nav-submission-back{
+  display: flex;
+  margin: 3rem 1.2rem 0rem 1.2rem;
+}
+.search-bar{
+  background-color:whitesmoke;
+  padding: 10px 1rem;
+}
+
+.form{
+  text-align: center;
+}
+
+.form-child{
+  padding: .25rem;
+}
+
+.purple-button{
+  background-color: #4b2e83;
+}
